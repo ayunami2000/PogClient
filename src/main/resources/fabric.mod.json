@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricnotebot",
+  "version": "${version}",
+
+  "name": "Fabric Notebot",
+  "description": "The best notebot",
+  "authors": [
+    "ayunami2000"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ayunami2000",
+    "sources": "https://gnome.now.sh"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/fabricnotebot/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ayunami2000.fabricnotebot.Main"
+    ]
+  },
+  "mixins": [
+    "fabricnotebot.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}

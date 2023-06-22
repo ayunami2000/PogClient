@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ayunami2000.fabricnotebot.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "MixinKeyboard",
+    "MixinGameMenuScreen",
+    "MixinWindow",
+    "MixinLivingEntity",
+    "MixinMinecraftClient",
+    "MixinScreen",
+    "MixinEntityRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
