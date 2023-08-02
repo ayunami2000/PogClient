@@ -2,7 +2,7 @@
 
 ## What is this????
 
-I have been working on this mod for years, keeping it closed-source until now. It contains a variety of random features that I have implemented over time.
+I have been working on this mod for years, keeping it closed-source until now. It contains a variety of random features that I have implemented over time. This mod is for 1.19.2
 
 ## License
 
